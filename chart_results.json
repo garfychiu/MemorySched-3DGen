@@ -1,0 +1,15 @@
+{
+    "_comment": "TEMPLATE for 8GB GPU: replace these numbers with your actual measured values",
+    "groups": ["Baseline", "View-4", "+ SparseAttn", "+ FP8-UNet", "+ LOD64", "+ Simplify0.5", "Full-Light"],
+    "mem":    [7.85, 6.40, 5.70, 5.20, 4.35, 4.15, 3.60],
+    "cd":     [0.076, 0.078, 0.078, 0.079, 0.085, 0.087, 0.087],
+    "fscore": [0.912, 0.909, 0.908, 0.907, 0.895, 0.891, 0.890],
+    "lpips":  [0.184, 0.187, 0.188, 0.189, 0.196, 0.199, 0.199],
+    "time":   [31.2, 30.5, 32.0, 31.8, 27.2, 26.5, 27.8],
+    "diagnostic": {
+        "prune_ratios": [0.0, 0.05, 0.10, 0.15],
+        "prune_cd":     [0.076, 0.079, 0.082, 0.097]
+    },
+    "compress_cd": 0.113
+}
+

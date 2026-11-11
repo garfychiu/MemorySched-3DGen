@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+.vscode/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+.DS_Store
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Model checkpoints & large weights (auto-downloaded, do NOT upload)
+ckpts/
+
+# Data & outputs
+inputs/
+outputs/
+lightning_logs/
+logs/
+figures*/
+.trash/
+
+# Secrets
+.env/
+
+# Paper / thesis / docs NOT part of the code repo
+*.docx
+*.doc
+*.pdf
+~$*
+_*.unpacked/
+_lo_profile/
+_verify_*/
+
+# Temp helper scripts
+_scan_py.py
+_build_upload.py
+
+# Useless Files
+*.sh
+blender/
+.restore/
